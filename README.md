@@ -1,20 +1,20 @@
-# Expense-Tracker-**MunimZ**
+# Expense-Tracker-**MunimZ** (Prototype)
 **MunimZ** ( "Munim Ji" is a Hindi pharse; it means Accountant) is a dynamic Expense Tracker built with python, it will help to track your Daily Expenses and prvide you a Summary and keep you safe from moth-end dilemma \\m//
 
-Project Overview : 
+**Project Overview** : 
 MunimZ is a Python program that allows users to manage and track their expenses. Users can add, view, delete, and summarize expenses based on different categories, such as food, transportation, rent, etc. The program uses a Dictionary to organize expenses by category and stores the data persistently using the pickle module.
 
-Project Schema :
+**Project Schema** :
 The project consists of a single Python script, and the core functionality is divided into diffrenrt functions blocks. 
     Main Components : 
-    Data Storage: The program uses a Dictionary  to store expense data. Each category is a key in the Dictionary, and the associated value is a List of expenses in that category.
-    Data Persistence: The pickle module is used to save and load the Dictionary from .pkl file. 
-    User Interface: The program offers a menu-driven command-line interface to interact with the expense tracker. Users can choose from the following options:
-    Add an Expense
-    View Expenses
-    Delete an Expense
-    View Expense Summary
-    Exit
+    Data Storage: The program uses a Dictionary  to store expense data. Each category is a key in the Dictionary, and the associated value is a List of expenses in that category. /n
+    Data Persistence: The pickle module is used to save and load the Dictionary from .pkl file. /n
+    User Interface: The program offers a menu-driven command-line interface to interact with the expense tracker. Users can choose from the following options:/n
+    Add an Expense /n
+    View Expenses /n
+    Delete an Expense /n
+    View Expense Summary /n
+    Exit /n
 
 Functions Written  : 
 load_expenses() : Loads the existing expense data from the "expenses.pkl" file into the expenses dictionary when the program starts.
