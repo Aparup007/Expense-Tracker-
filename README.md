@@ -76,5 +76,5 @@ shutdown_app: Simulates the shutdown of the application.
 
 3. **Domain Driven Diagram**
    
-![[ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Diagram.jpg)
+![ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Diagram.jpg)
 
