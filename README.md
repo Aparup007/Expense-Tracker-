@@ -1,6 +1,7 @@
 # Expense-Tracker-**MunimZ** (Prototype)
 
-**Project Overview**
+**Project Overview**  
+
 **MunimZ** ( "Munim Ji" is a Hindi(Indian) pharse; it means Accountant) is a dynamic Expense Management Tool built in python, through this platform user will be able to execute all type of payments from daily purchases to monthly bills and EMIs; it has also options for investimetns, user will have access to sharemarket and different bonds; it captures log of evey actions and prvides a consolidated Summary upon request. Also it caters customize offers to the user to keep them ahead in the market.
 
 **Project Schema** :
