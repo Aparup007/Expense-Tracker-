@@ -4,29 +4,35 @@
 
 **MunimZ** ( "Munim Ji" is a Hindi(Indian) pharse; it means Accountant) is a comprehensive platform designed to streamline and enhance users' financial activities. This one-stop solution provides users with tools to manage transactions, set financial goals, monitor investments, check credit scores, and access personalized offers. The application aims to empower users in making informed financial decisions while offering a seamless and user-friendly experienceis.  
 
-**Features**
+**Features**  
 i. User Management -  
 User Authentication: Users can securely log in and log out of the application.  
 Profile Management: Users can update their profiles and manage account information.  
+
 ii. Transaction Management -  
 Payment Processing: Users can make online payments using UPI or cards, with transaction logs generated.  
 Manual Entry: Users can manually input details for cash transactions outside the app.  
+
 ii. Investment Opportunities -  
 Stock Market Access: Users can explore and invest in stocks through integrated portals.  
 Bank Portals: Access to various bank portals for investment opportunities.  
+
 iii. Financial Goal Setting - 
 Goal Definition: Users can set financial goals, specifying the amount and deadline.  
 Progress Tracking: Track progress towards financial goals with updates and notifications.  
+
 iv. Exclusive Offers - 
 Offer Discovery: Users can explore personalized offers sorted by the app based on financial behavior.  
 Claiming Offers: Users can claim offers, and transaction logs are generated.  
+
 v. Credit Score Monitoring -  
 Credit Score Check: Users can check their credit scores directly from the app.  
+
 vi. Reporting and Analysis - 
 Consolidated Reports: Users can generate consolidated reports summarizing transactions, goals, and offers.  
 Interactive Visualizations: Visual representation of financial data to aid analysis.  
 
-**Usage**
+**Usage**  
 Users can access the Financial Management App through an intuitive interface. After logging in, they have the flexibility to manage transactions, set financial goals, explore investment opportunities, and monitor their credit score. The application ensures data security and provides valuable insights to help users make informed financial decisions.  
 
 
@@ -44,7 +50,7 @@ App Domain: Represents the main application structure with an App class for mana
 
 1.2.Core Domain:
 
-Functions
+Functions  
 Transaction: Represents a generic transaction with an ID, amount, date, and description.
 Payment: Represents a payment transaction with an additional payment method.
 CashTransaction: Represents a cash transaction, inheriting from Transaction.
@@ -56,9 +62,8 @@ CreditScore: Represents a user's credit score.
 
 1.3.User Domain:
 
-Functions
-User: Represents a user with an ID, username, password, email, phone, transactions, credit score, goals, reports, notifications, and rewards.
-Functions:
+Functions  
+User: Represents a user with an ID, username, password, email, phone, transactions, credit score, goals, reports, notifications, and rewards.  
 login: Simulates user login.
 logout: Simulates user logout.
 set_financial_goal: Sets a financial goal for the user.
@@ -72,7 +77,7 @@ claim_reward: Claims a reward for the user.
 
 1.4.Notification and Reward Domain:
 
-Functions
+Functions  
 Notification: Represents a notification with a user, message, and date.
 send_notification: Sends a notification to the user.
 Reward: Represents a reward with an ID, details, and expiry date.
@@ -80,7 +85,7 @@ claim_reward: Claims a reward for a user.
 
 1.5.App Domain:
 
-Fubnctions
+Fubnctions  
 App: Represents the main application with a list of users.
 start_app: Simulates the start of the application.
 shutdown_app: Simulates the shutdown of the application.
