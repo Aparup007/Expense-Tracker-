@@ -5,16 +5,17 @@
 
 **Project Schema** :
 
-Language Used: Python
+**Language Used**: Python
 
-1.a.Categories:
+1.a.**Categories**:
+
 Core Domain: Defines fundamental classes such as Transaction, Payment, CashTransaction, Investment, Goal, Offer, Report, and CreditScore.
 User Domain: Manages user-related functionalities like login, logout, goal setting, credit score checking, transaction recording, investment, and report generation.
 Notification and Reward Domain: Handles notifications and rewards for users.
 App Domain: Represents the main application structure with an App class for managing users.
-Functions Written:
 
 1.a.1.Core Domain:
+
 Functions
 Transaction: Represents a generic transaction with an ID, amount, date, and description.
 Payment: Represents a payment transaction with an additional payment method.
@@ -26,6 +27,7 @@ Report: Represents a financial report with an ID, content, and generation date.
 CreditScore: Represents a user's credit score.
 
 1.a.2.User Domain:
+
 Functions
 User: Represents a user with an ID, username, password, email, phone, transactions, credit score, goals, reports, notifications, and rewards.
 Functions:
@@ -41,6 +43,7 @@ notify_user: Notifies the user with a message.
 claim_reward: Claims a reward for the user.
 
 1.a.3.Notification and Reward Domain:
+
 Functions
 Notification: Represents a notification with a user, message, and date.
 send_notification: Sends a notification to the user.
@@ -48,6 +51,7 @@ Reward: Represents a reward with an ID, details, and expiry date.
 claim_reward: Claims a reward for a user.
 
 1.a.4.App Domain:
+
 Fubnctions
 App: Represents the main application with a list of users.
 start_app: Simulates the start of the application.
