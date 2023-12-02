@@ -1,4 +1,4 @@
-# Expense-Tracker-**MunimZ** (Prototype)
+# **MunimZ** (Prototype)
 
 **Project Overview**  
 
