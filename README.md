@@ -83,3 +83,5 @@ shutdown_app: Simulates the shutdown of the application.
    
 ![ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Design.jpg)
 
+4. **Metrics**
+--in progress : software installation phase--
