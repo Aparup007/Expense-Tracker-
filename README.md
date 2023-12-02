@@ -59,9 +59,9 @@ shutdown_app: Simulates the shutdown of the application.
 
 1.b.Usage:
 
--The user runs the script, creating an instance of the App class <br />
--Users are created and added to the application <br />
--User interactions simulate login, goal setting, credit score checking, transactions, investments, report generation, and notifications <br />
+-The user runs the script, creating an instance of the App class  
+-Users are created and added to the application  
+-User interactions simulate login, goal setting, credit score checking, transactions, investments, report generation, and notifications  
 -The application is then shut down
 
 2.**UML Diagrams**
