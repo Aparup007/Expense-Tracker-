@@ -1,7 +1,7 @@
 # Expense-Tracker-**MunimZ** (Prototype)
 
 **Project Overview**
-**MunimZ** ( "Munim Ji" is a Hindi(Indian) pharse; it means Accountant) is a dynamic Expense Management Tool built in python, through this platform user will be able to execute all type of payments from daily purchase to monthly bills and EMIs; it has also options for investimetns, user will have access to share market and different bonds; it captures log of evey actions and prvide a consolidated Summary upon request. Also it will cater customize offers to the user to keep them ahead in the market.
+**MunimZ** ( "Munim Ji" is a Hindi(Indian) pharse; it means Accountant) is a dynamic Expense Management Tool built in python, through this platform user will be able to execute all type of payments from daily purchases to monthly bills and EMIs; it has also options for investimetns, user will have access to sharemarket and different bonds; it captures log of evey actions and prvides a consolidated Summary upon request. Also it caters customize offers to the user to keep them ahead in the market.
 
 **Project Schema** :
 
@@ -59,10 +59,10 @@ shutdown_app: Simulates the shutdown of the application.
 
 1.b.Usage:
 
--The user runs the script, creating an instance of the App class.
--Users are created and added to the application.
--User interactions simulate login, goal setting, credit score checking, transactions, investments, report generation, and notifications.
--The application is then shut down.
+-The user runs the script, creating an instance of the App class <br />
+-Users are created and added to the application <br />
+-User interactions simulate login, goal setting, credit score checking, transactions, investments, report generation, and notifications <br />
+-The application is then shut down
 
 2.**UML Diagrams**
 
