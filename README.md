@@ -78,7 +78,7 @@ shutdown_app: Simulates the shutdown of the application.
 
 ![uml_class](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.jpg)
 
-3. **Domain Driven Diagram**
+3. **Domain Driven Design**
    
 ![ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Diagram.jpg)
 
