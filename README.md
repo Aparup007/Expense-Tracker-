@@ -2,7 +2,8 @@
 **MunimZ** ( "Munim Ji" is a Hindi pharse; it means Accountant) is a dynamic Expense Tracker built with python, it will help to track your Daily Expenses and prvide you a Summary and keep you safe from moth-end dilemma \\m//
 ![uml_activity](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Activity%20Diagram.jpg)
 ![uml_class](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.jpg)
-
+![uml_usecase](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagrame.jpg)
+![[ddd]()
 **Project Overview** : 
 MunimZ is a Python program that allows users to manage and track their expenses. Users can add, view, delete, and summarize expenses based on different categories, such as food, transportation, rent, etc. The program uses a Dictionary to organize expenses by category and stores the data persistently using the pickle module.
 
