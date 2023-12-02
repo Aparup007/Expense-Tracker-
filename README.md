@@ -3,16 +3,11 @@
 **Project Overview**
 **MunimZ** ( "Munim Ji" is a Hindi(Indian) pharse; it means Accountant) is a dynamic Expense Management Tool built in python, through this platform user will be able to execute all type of payments from daily purchase to monthly bills and EMIs; it has also options for investimetns, user will have access to share market and different bonds; it captures log of evey actions and prvide a consolidated Summary upon request. Also it will cater customize offers to the user to keep them ahead in the market.
 
-![uml_activity](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Activity%20Diagram.jpg)
-![uml_class](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.jpg)
-![uml_usecase](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagrame.jpg)
-![[ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Diagram.jpg)
-
 **Project Schema** :
 
 Language Used: Python
 
-1.aCategories:
+1.a.Categories:
 Core Domain: Defines fundamental classes such as Transaction, Payment, CashTransaction, Investment, Goal, Offer, Report, and CreditScore.
 User Domain: Manages user-related functionalities like login, logout, goal setting, credit score checking, transaction recording, investment, and report generation.
 Notification and Reward Domain: Handles notifications and rewards for users.
@@ -64,3 +59,22 @@ shutdown_app: Simulates the shutdown of the application.
 -Users are created and added to the application.
 -User interactions simulate login, goal setting, credit score checking, transactions, investments, report generation, and notifications.
 -The application is then shut down.
+
+2.**UML Diagrams**
+
+2.a. Use Case Diagram
+
+![uml_usecase](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagrame.jpg)
+
+2.b. Activity Diagram 
+
+![uml_activity](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Activity%20Diagram.jpg)
+
+2.c. Class Diagram 
+
+![uml_class](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.jpg)
+
+3. **Domain Driven Diagram**
+   
+![[ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Diagram.jpg)
+
