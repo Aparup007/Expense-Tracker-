@@ -208,6 +208,3 @@ if __name__ == "__main__":
 
     # User logout
     alice.login_logout.logout()
-    
-
-   
