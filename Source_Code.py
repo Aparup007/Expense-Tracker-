@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # Core Domain
 
@@ -27,15 +27,6 @@ class CashTransaction(Transaction):
         print(f"Cash transaction recorded.")
 
 
-class Investment(Transaction):
-    def __init__(self, transaction_id, amount, date, description, investment_type):
-        super().__init__(transaction_id, amount, date, description)
-        self.investment_type = investment_type
-
-    def perform_investment(self):
-        print(f"Investment made in {self.investment_type}.")
-
-
 class Goal:
     def __init__(self, goal_id, goal_amount, deadline):
         self.goal_id = goal_id
@@ -50,16 +41,6 @@ class Goal:
         return self.current_amount >= self.goal_amount
 
 
-class Offer:
-    def __init__(self, offer_id, offer_details, validity):
-        self.offer_id = offer_id
-        self.offer_details = offer_details
-        self.validity = validity
-
-    def claim_offer(self):
-        print(f"Offer claimed: {self.offer_details}.")
-
-
 class Report:
     def __init__(self, report_id, content, generation_date):
         self.report_id = report_id
@@ -68,15 +49,6 @@ class Report:
 
     def generate_report(self):
         print(f"Report generated on {self.generation_date}:\n{self.content}")
-
-
-class CreditScore:
-    def __init__(self, credit_score):
-        self.credit_score = credit_score
-
-    def check_credit_score(self):
-        print(f"Credit Score: {self.credit_score}")
-        return self.credit_score
 
 
 # User Domain
@@ -102,20 +74,14 @@ class User:
         self.email = email
         self.phone = phone
         self.transactions = []
-        self.credit_score = CreditScore(700)  # Default credit score
         self.goals = []
         self.reports = []
-        self.notifications = []
-        self.rewards = []
         self.login_logout = LoginLogout(self)
 
     def set_financial_goal(self, goal_amount, deadline):
         goal = Goal(len(self.goals) + 1, goal_amount, deadline)
         self.goals.append(goal)
         print(f"Financial goal set: {goal_amount} by {deadline}.")
-
-    def check_credit_score(self):
-        return self.credit_score.check_credit_score()
 
     def generate_consolidated_report(self):
         report_content = f"Consolidated Report for {self.username}:\n"
@@ -136,38 +102,10 @@ class User:
         self.transactions.append(transaction)
         print(f"Cash transaction of {amount} recorded.")
 
-    def make_investment(self, amount, description, investment_type):
-        transaction = Investment(len(self.transactions) + 1, amount, datetime.now(), description, investment_type)
-        self.transactions.append(transaction)
-        print(f"Investment of {amount} made in {investment_type}.")
-
     def notify_user(self, message):
         notification = Notification(user=self, message=message, date=datetime.now())
         self.notifications.append(notification)
         notification.send_notification()
-
-    def claim_reward(self, reward):
-        reward.claim_reward(self)
-
-# Notification and Reward Domain
-
-class Notification:
-    def __init__(self, user, message, date):
-        self.user = user
-        self.message = message
-        self.date = date
-
-    def send_notification(self):
-        print(f"Notification to {self.user.username} on {self.date}: {self.message}")
-
-class Reward:
-    def __init__(self, reward_id, reward_details, expiry_date):
-        self.reward_id = reward_id
-        self.reward_details = reward_details
-        self.expiry_date = expiry_date
-
-    def claim_reward(self, user):
-        print(f"Reward claimed by {user.username}: {self.reward_details}")
 
 # App Domain
 
@@ -193,18 +131,9 @@ if __name__ == "__main__":
     # User interactions
     alice.login_logout.login()
     alice.set_financial_goal(goal_amount=5000, deadline=datetime(2023, 12, 31))
-    alice.check_credit_score()
     alice.make_payment(amount=1000, description="Online purchase", payment_method="Credit Card")
     alice.make_cash_transaction(amount=200, description="Grocery shopping")
-    alice.make_investment(amount=3000, description="Stocks", investment_type="Stock Market")
     alice.generate_consolidated_report()
-
-    # Notification and Reward
-    alice.notify_user("New offer available!")
-    
-    reward = Reward(reward_id=1, reward_details="10% discount on next purchase", 
-                    expiry_date=datetime.now() + timedelta(days=30))
-    alice.claim_reward(reward)
 
     # User logout
     alice.login_logout.logout()
