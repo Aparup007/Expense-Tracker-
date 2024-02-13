@@ -27,18 +27,18 @@ class CashTransaction(Transaction):
         print(f"Cash transaction recorded.")
 
 
-class Goal:
-    def __init__(self, goal_id, goal_amount, deadline):
-        self.goal_id = goal_id
-        self.goal_amount = goal_amount
+class Limit:
+    def __init__(self, limit_id, limit_amount, deadline):
+        self.limit_id = limit_id
+        self.limit_amount = limit_amount
         self.current_amount = 0
         self.deadline = deadline
 
-    def update_progress(self, amount):
+    def update_spending(self, amount):
         self.current_amount += amount
 
-    def check_goal_completion(self):
-        return self.current_amount >= self.goal_amount
+    def check_limit_exceeded(self):
+        return self.current_amount > self.limit_amount
 
 
 class Report:
@@ -74,19 +74,19 @@ class User:
         self.email = email
         self.phone = phone
         self.transactions = []
-        self.goals = []
+        self.limits = []
         self.reports = []
         self.login_logout = LoginLogout(self)
 
-    def set_financial_goal(self, goal_amount, deadline):
-        goal = Goal(len(self.goals) + 1, goal_amount, deadline)
-        self.goals.append(goal)
-        print(f"Financial goal set: {goal_amount} by {deadline}.")
+    def set_financial_limit(self, limit_amount, deadline):
+        limit = Limit(len(self.limits) + 1, limit_amount, deadline)
+        self.limits.append(limit)
+        print(f"Financial limit set: {limit_amount} by {deadline}.")
 
     def generate_consolidated_report(self):
         report_content = f"Consolidated Report for {self.username}:\n"
-        for goal in self.goals:
-            report_content += f"Goal {goal.goal_id}: {goal.current_amount}/{goal.goal_amount} achieved.\n"
+        for limit in self.limits:
+            report_content += f"Limit {limit.limit_id}: {limit.current_amount}/{limit.limit_amount} spent.\n"
         report = Report(len(self.reports) + 1, report_content, datetime.now())
         self.reports.append(report)
         print("Consolidated report generated.")
@@ -118,22 +118,3 @@ class App:
 
     def shutdown_app(self):
         print("App shutdown.")
-
-# Example Usage
-if __name__ == "__main__":
-    financial_app = App()
-    financial_app.start_app()
-
-    # Create a user
-    alice = User(user_id=1, username="Alice", password="password123", email="alice@example.com", phone="1234567890")
-    financial_app.users.append(alice)
-
-    # User interactions
-    alice.login_logout.login()
-    alice.set_financial_goal(goal_amount=5000, deadline=datetime(2023, 12, 31))
-    alice.make_payment(amount=1000, description="Online purchase", payment_method="Credit Card")
-    alice.make_cash_transaction(amount=200, description="Grocery shopping")
-    alice.generate_consolidated_report()
-
-    # User logout
-    alice.login_logout.logout()
