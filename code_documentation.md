@@ -11,7 +11,7 @@ Represents a generic financial transaction.
 - `description`: A brief description of the transaction.
 
 ### Payment
-Represents a payment transaction.
+Represents a payment transaction   1233.
 
 - Inherits from Transaction.
 - `payment_method`: The method used for the payment.
