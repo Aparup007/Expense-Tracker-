@@ -107,6 +107,17 @@ class User:
         self.notifications.append(notification)
         notification.send_notification()
 
+# Notification Domain
+
+class Notification:
+    def __init__(self, user, message, date):
+        self.user = user
+        self.message = message
+        self.date = date
+
+    def send_notification(self):
+        print(f"Notification to {self.user.username} on {self.date}: {self.message}")
+
 # App Domain
 
 class App:
@@ -114,7 +125,7 @@ class App:
         self.users = []
 
     def start_app(self):
-        print("App started.")
+        print("App Started.")
 
     def shutdown_app(self):
-        print("App shutdown.")
+        print("App Shutdown.")
