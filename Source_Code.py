@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Core Domain
 
@@ -27,18 +27,37 @@ class CashTransaction(Transaction):
         print(f"Cash transaction recorded.")
 
 
-class Limit:
-    def __init__(self, limit_id, limit_amount, deadline):
-        self.limit_id = limit_id
-        self.limit_amount = limit_amount
+class Investment(Transaction):
+    def __init__(self, transaction_id, amount, date, description, investment_type):
+        super().__init__(transaction_id, amount, date, description)
+        self.investment_type = investment_type
+
+    def perform_investment(self):
+        print(f"Investment made in {self.investment_type}.")
+
+
+class Goal:
+    def __init__(self, goal_id, goal_amount, deadline):
+        self.goal_id = goal_id
+        self.goal_amount = goal_amount
         self.current_amount = 0
         self.deadline = deadline
 
-    def update_spending(self, amount):
+    def update_progress(self, amount):
         self.current_amount += amount
 
-    def check_limit_exceeded(self):
-        return self.current_amount > self.limit_amount
+    def check_goal_completion(self):
+        return self.current_amount >= self.goal_amount
+
+
+class Offer:
+    def __init__(self, offer_id, offer_details, validity):
+        self.offer_id = offer_id
+        self.offer_details = offer_details
+        self.validity = validity
+
+    def claim_offer(self):
+        print(f"Offer claimed: {self.offer_details}.")
 
 
 class Report:
@@ -49,6 +68,15 @@ class Report:
 
     def generate_report(self):
         print(f"Report generated on {self.generation_date}:\n{self.content}")
+
+
+class CreditScore:
+    def __init__(self, credit_score):
+        self.credit_score = credit_score
+
+    def check_credit_score(self):
+        print(f"Credit Score: {self.credit_score}")
+        return self.credit_score
 
 
 # User Domain
@@ -74,19 +102,25 @@ class User:
         self.email = email
         self.phone = phone
         self.transactions = []
-        self.limits = []
+        self.credit_score = CreditScore(700)  # Default credit score
+        self.goals = []
         self.reports = []
+        self.notifications = []
+        self.rewards = []
         self.login_logout = LoginLogout(self)
 
-    def set_financial_limit(self, limit_amount, deadline):
-        limit = Limit(len(self.limits) + 1, limit_amount, deadline)
-        self.limits.append(limit)
-        print(f"Financial limit set: {limit_amount} by {deadline}.")
+    def set_financial_goal(self, goal_amount, deadline):
+        goal = Goal(len(self.goals) + 1, goal_amount, deadline)
+        self.goals.append(goal)
+        print(f"Financial goal set: {goal_amount} by {deadline}.")
+
+    def check_credit_score(self):
+        return self.credit_score.check_credit_score()
 
     def generate_consolidated_report(self):
         report_content = f"Consolidated Report for {self.username}:\n"
-        for limit in self.limits:
-            report_content += f"Limit {limit.limit_id}: {limit.current_amount}/{limit.limit_amount} spent.\n"
+        for goal in self.goals:
+            report_content += f"Goal {goal.goal_id}: {goal.current_amount}/{goal.goal_amount} achieved.\n"
         report = Report(len(self.reports) + 1, report_content, datetime.now())
         self.reports.append(report)
         print("Consolidated report generated.")
@@ -102,12 +136,20 @@ class User:
         self.transactions.append(transaction)
         print(f"Cash transaction of {amount} recorded.")
 
+    def make_investment(self, amount, description, investment_type):
+        transaction = Investment(len(self.transactions) + 1, amount, datetime.now(), description, investment_type)
+        self.transactions.append(transaction)
+        print(f"Investment of {amount} made in {investment_type}.")
+
     def notify_user(self, message):
         notification = Notification(user=self, message=message, date=datetime.now())
         self.notifications.append(notification)
         notification.send_notification()
 
-# Notification Domain
+    def claim_reward(self, reward):
+        reward.claim_reward(self)
+
+# Notification and Reward Domain
 
 class Notification:
     def __init__(self, user, message, date):
@@ -118,6 +160,15 @@ class Notification:
     def send_notification(self):
         print(f"Notification to {self.user.username} on {self.date}: {self.message}")
 
+class Reward:
+    def __init__(self, reward_id, reward_details, expiry_date):
+        self.reward_id = reward_id
+        self.reward_details = reward_details
+        self.expiry_date = expiry_date
+
+    def claim_reward(self, user):
+        print(f"Reward claimed by {user.username}: {self.reward_details}")
+
 # App Domain
 
 class App:
@@ -125,7 +176,7 @@ class App:
         self.users = []
 
     def start_app(self):
-        print("App Started.")
+        print("App started.")
 
     def shutdown_app(self):
-        print("App Shutdown.")
+        print("App shutdown.")
