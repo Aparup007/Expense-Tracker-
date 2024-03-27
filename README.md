@@ -1,6 +1,6 @@
 # **MunimZ** a one stop solution for managing your expense 
 
-**General**
+***General***
 
 **Overview**  
 
