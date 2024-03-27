@@ -75,7 +75,18 @@ Here is my personal CCD [cheatsheet](https://github.com/Aparup007/One-Stop-Expen
 ![jenkins](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-03-27%20175206.png)                                                                                         
 I have installed Jenkins for CI/CD pipeline and used Maven plug-in thorugh Jenkins platform for build process.
 This is the screeshot after completing the [build stage](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-21%20185709.png)
-I have build the complete CI/CD [pipeline](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20163309.png) in Jenkins
+I have build the complete CI/CD pipeline in Jenkins                                                                                                                                                                                       
+![pipeline](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20163309.png)
+
+## 8. Unit Test: 
+I have writtten three unit test case using asserting method to test the code 
+
+1. test_set_financial_goal: This method tests the set_financial_goal method of the User class, verifying if a financial goal is correctly added to the user's goals list.
+2. test_make_payment: This method tests the make_payment method of the User class, ensuring that a payment transaction is properly added to the user's transactions list.
+3. test_make_cash_transaction: This method tests the make_cash_transaction method of the User class, verifying if a cash transaction is correctly added to the user's transactions list.
+
+This is the [unt test file](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/Unit_test.py)
+![test_result](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20155057.png)
 
 
 
