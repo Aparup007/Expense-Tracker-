@@ -52,7 +52,7 @@ I have design [Context Mapping Diagram](https://github.com/Aparup007/One-Stop-Ex
 ![sonar_cube](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/sonarcloud%20logo.png)                                                                                                  
 SonarCloud has been used for analyse code quality
 Below are the metrics and correposding results                                                                                                                                                                                                                                                                                                                                                                                                             
-![sonar_cloud](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/SonarCloud%20result.png)
+![sonar_cloud](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/SonarCloud%20result.png)
 
 ## 5. Clean Code Developement
 Below are the 5 methods with example among the many which has been used to write clean code for the project
@@ -67,6 +67,7 @@ Below are the 5 methods with example among the many which has been used to write
 5. Error Handling: Although not explicitly shown in the provided code, error handling is an essential aspect of clean code. Implementing proper error handling mechanisms ensures that the code behaves predictably and 
    gracefully handles unexpected situations, enhancing robustness and reliability.
 
-My personal CCD cheat sheet
+Here is my personal CCD [cheatsheet](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/CCD%20Cheet%20sheet.pdf)
+
 
 
