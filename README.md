@@ -1,4 +1,4 @@
-# **MunimZ** : a one stop solution for managing your expense 
+![sonarcloud-wordmark-1](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/assets/68053460/c447cfdb-a249-4212-bb5f-3490e1b14a02)# **MunimZ** : a one stop solution for managing your expense 
 
 ## General
 
@@ -52,4 +52,4 @@ I have design Context Mapping Diagram and Core Domain Chart and Event storming d
 
 ## Metrics
 SonarCloud has been used for analyse code quality 
-![sonarcloud](https://www.google.com/search?sca_esv=dd94ec39bb071d4b&rlz=1C1OPNX_enIN1076IN1078&sxsrf=ACQVn088gOwUlgzs1rB1cGJ6Ur9moQp1Eg:1711547984810&q=sonarcloud&tbm=isch&source=lnms&prmd=invbz&sa=X&sqi=2&ved=2ahUKEwiQ8ZmNzZSFAxWEHBAIHckFBIcQ0pQJegQIEBAB&biw=1707&bih=811&dpr=1.25#imgrc=jJatnukSd06-VM)
+![sonarcloud-wordmark-1](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/assets/68053460/7af98c68-bb86-4b62-a349-24ee45da93d8)
