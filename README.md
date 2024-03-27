@@ -37,79 +37,13 @@ Interactive Visualizations: Visual representation of financial data to aid analy
 ### Usage
 Users can access the Financial Management App through an intuitive interface. After logging in, they have the flexibility to manage transactions, set financial goals, explore investment opportunities, and monitor their credit score. The application ensures data security and provides valuable insights to help users make informed financial decisions.  
 
+## 1. Git
+A few years ago, I used GitHub, so going back to it recently was like a good refresher session for me. It made me better at excuting git actions like colne, push, pull, commit etc. . Git also helped me easily connect my project with other tools I used in my project, like SonarCloud, Maven, and Jenkins. Overall, working with Git for this assigment was a fun experience ! 
 
+## 2. UML Diagrams
+For my project I have used below three UML diagrams: 
 
-**Project Schema** :
-
-**Language Used**: Python
-
-1.1.**Categories**:
-
-Core Domain: Defines fundamental classes such as Transaction, Payment, CashTransaction, Investment, Goal, Offer, Report, and CreditScore.  
-User Domain: Manages user-related functionalities like login, logout, goal setting, credit score checking, transaction recording, investment, and report generation.  
-Notification and Reward Domain: Handles notifications and rewards for users.  
-App Domain: Represents the main application structure with an App class for managing users.  
-
-1.2.Core Domain:
-
-Functions  
-Transaction: Represents a generic transaction with an ID, amount, date, and description.  
-Payment: Represents a payment transaction with an additional payment method.  
-CashTransaction: Represents a cash transaction, inheriting from Transaction.  
-Investment: Represents an investment transaction with an additional investment type.  
-Goal: Represents a financial goal with an ID, goal amount, current amount, and deadline.  
-Offer: Represents a financial offer with an ID, details, and validity.  
-Report: Represents a financial report with an ID, content, and generation date.  
-CreditScore: Represents a user's credit score.  
-
-1.3.User Domain:
-
-Functions  
-User: Represents a user with an ID, username, password, email, phone, transactions, credit score, goals, reports, notifications, and rewards.    
-login: Simulates user login.  
-logout: Simulates user logout.  
-set_financial_goal: Sets a financial goal for the user.   
-check_credit_score: Checks and returns the user's credit score.  
-generate_consolidated_report: Generates a consolidated report for the user.  
-make_payment: Records a payment transaction for the user.  
-make_cash_transaction: Records a cash transaction for the user.  
-make_investment: Records an investment transaction for the user.  
-notify_user: Notifies the user with a message.  
-claim_reward: Claims a reward for the user.  
-
-1.4.Notification and Reward Domain:
-
-Functions  
-Notification: Represents a notification with a user, message, and date.  
-send_notification: Sends a notification to the user.  
-Reward: Represents a reward with an ID, details, and expiry date.  
-claim_reward: Claims a reward for a user.  
-
-1.5.App Domain:
-
-Fubnctions  
-App: Represents the main application with a list of users.  
-start_app: Simulates the start of the application.  
-shutdown_app: Simulates the shutdown of the application.  
-
-
-2.**UML Diagrams**
-
-2.a. Use Case Diagram
-
-![uml_usecase](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagrame.jpg)
-
-2.b. Activity Diagram 
-
-![uml_activity](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Activity%20Diagram.jpg)
-
-2.c. Class Diagram 
-
-![uml_class](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.jpg)
-
-3. **Domain Driven Design**
-   
-![ddd](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Domain%20Driven%20Design.jpg)
-
-4. **Metrics**
---in progress : software installation phase--
+1. Activity Diagram: ![uml_usecase]([https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagrame.jpg](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20User%20Activity%20Diagram.png))
+This Activity Diagram shows the end to end workflow of the system
+2. Class Diagram - The Class Diagram illustrates various classes written for the system and their relationships.
+3. Use Case Diagram - This Use Case Diagram shows that interaction between user and diffrent functionlities of the system 
