@@ -46,3 +46,10 @@ For my project I have used below three UML diagrams:
 1. [Activity Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20User%20Activity%20Diagram.png): This Activity Diagram shows the end to end workflow of the system
 2. [Class Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.png): The Class Diagram illustrates various classes written for the system and their relationships.
 3. [Use Case Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagram.png): This Use Case Diagram shows that interaction between user and diffrent functionlities of the system
+
+## 2. DDD
+I have design Context Mapping Diagram and Core Domain Chart and Event storming diagram for the entire systme architecture
+
+## Metrics
+SonarCloud has been used for analyse code quality 
+![sonarcloud](https://www.google.com/search?sca_esv=dd94ec39bb071d4b&rlz=1C1OPNX_enIN1076IN1078&sxsrf=ACQVn088gOwUlgzs1rB1cGJ6Ur9moQp1Eg:1711547984810&q=sonarcloud&tbm=isch&source=lnms&prmd=invbz&sa=X&sqi=2&ved=2ahUKEwiQ8ZmNzZSFAxWEHBAIHckFBIcQ0pQJegQIEBAB&biw=1707&bih=811&dpr=1.25#imgrc=jJatnukSd06-VM)
