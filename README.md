@@ -45,15 +45,28 @@ For my project I have used below three UML diagrams:
 2. [Class Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Class%20Diagram.png): The Class Diagram illustrates various classes written for the system and their relationships.
 3. [Use Case Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagram.png): This Use Case Diagram shows that interaction between user and diffrent functionlities of the system
 
-## 2. DDD
+## 3. DDD
 I have design [Context Mapping Diagram](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Contex%20Mapping%20Diagram.png), [Core Domain Chart](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Core%20Diagram%20Chart.jpg) and [Event storming diagram](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Event%20storming%20diagram.png) which compliments the entire systme architecture
 
-## Metrics
+## 4. Metrics
 ![sonar_cube](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/sonarcloud%20logo.png)                                                                                                  
 SonarCloud has been used for analyse code quality
-Below are the metrics and correposding results                                                                                                                                                                                
+Below are the metrics and correposding results                                                                                                                                                                                                                                                                                                                                                                                                             
 ![sonar_cloud](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/SonarCloud%20result.png)
 
-..
+## 5. Clean Code Developement
+Below are the 5 methods with example among the many which has been used to write clean code for the project
+
+1. Descriptive Variable Names: In the code, variable names like user_id, username, amount, etc., are descriptive and convey the purpose of the variable. This makes the code easier to understand for anyone reading it.
+2. Modularization: The code is divided into meaningful classes such as User, Transaction, Payment, etc., each responsible for a specific aspect of the system. This modularization enhances code organization and 
+   maintainability.
+3. Encapsulation:	Encapsulation is maintained by using private attributes and providing public methods to interact with those attributes. For example, the User class encapsulates user data and provides methods like 
+   make_payment(), set_financial_goal(), etc., to interact with it.
+4. Code Reusability: By defining classes and methods with clear responsibilities, the code promotes reuse. For instance, the Payment class can be reused for different payment methods, and the CashTransaction class can be 
+   used for any cash-related transactions.
+5. Error Handling: Although not explicitly shown in the provided code, error handling is an essential aspect of clean code. Implementing proper error handling mechanisms ensures that the code behaves predictably and 
+   gracefully handles unexpected situations, enhancing robustness and reliability.
+
+My personal CCD cheat sheet
 
 
