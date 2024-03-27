@@ -53,6 +53,8 @@ I have design [Context Mapping Diagram](https://github.com/Aparup007/One-Stop-Ex
 SonarCloud has been used for analyse code quality
 Below are the metrics and correposding results                                                                                                                                                                                                                                                                                                                                                                                                             
 ![sonar_cloud](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/SonarCloud%20result.png)
+![code_passed](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Code_passed.png)
+
 
 ## 5. Clean Code Developement
 Below are the 5 methods with example among the many which has been used to write clean code for the project
@@ -68,6 +70,10 @@ Below are the 5 methods with example among the many which has been used to write
    gracefully handles unexpected situations, enhancing robustness and reliability.
 
 Here is my personal CCD [cheatsheet](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/CCD%20Cheet%20sheet.pdf)
+
+## 6/7. Build/Contimous Delivery : 
+I have installed Jenkins for CI/CD pipeline and Maven plug-ins thorugh Jenkins platform for build.
+This is the screeshot after completing the [build] stage 
 
 
 
