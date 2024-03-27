@@ -11,7 +11,7 @@ Profile Management: Users can update their profiles and manage account informati
 
 ii. Transaction Management -  
 Payment Processing: Users can make online payments using UPI or cards, with transaction logs generated.  
-Manual Entry: Users can manually input details for cash transactions outside the app.  
+Manual Entry: Users can manually input details for cash transactions outside the app.
 
 iii. Investment Opportunities -  
 Stock Market Access: Users can explore and invest in stocks through integrated portals.  
