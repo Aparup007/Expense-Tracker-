@@ -71,9 +71,12 @@ Below are the 5 methods with example among the many which has been used to write
 
 Here is my personal CCD [cheatsheet](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/CCD%20Cheet%20sheet.pdf)
 
-## 6/7. Build/Contimous Delivery : 
-I have installed Jenkins for CI/CD pipeline and Maven plug-ins thorugh Jenkins platform for build.
-This is the screeshot after completing the [build] stage 
+## 6/7. Build/Contimous Delivery :
+![jenkins](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-03-27%20175206.png)                                                                                         
+I have installed Jenkins for CI/CD pipeline and used Maven plug-in thorugh Jenkins platform for build process.
+This is the screeshot after completing the [build stage](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-21%20185709.png)
+I have build the complete CI/CD [pipeline](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20163309.png) in Jenkins
+
 
 
 
