@@ -49,10 +49,10 @@ For my project I have used below three UML diagrams:
 I have design Context Mapping Diagram and Core Domain Chart and Event storming diagram for the entire systme architecture
 
 ## Metrics
-SonarCloud has been used for analyse code quality
-
-
 ![sonar_cube](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/sonar%20cube%20logo.png)
+SonarCloud has been used for analyse code quality
+Below are the metrics and correposding results 
+![sonar_cloud](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/SonarCloud%20result.png)
 
 
 
