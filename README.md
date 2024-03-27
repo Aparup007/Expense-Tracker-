@@ -43,7 +43,6 @@ A few years ago, I used GitHub, so going back to it recently was like a good ref
 ## 2. UML Diagrams
 For my project I have used below three UML diagrams: 
 
-1. Activity Diagram: [uml_usecase](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20User%20Activity%20Diagram.png)
-This Activity Diagram shows the end to end workflow of the system
+1. [Activity Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20User%20Activity%20Diagram.png): This Activity Diagram shows the end to end workflow of the system
 2. Class Diagram - The Class Diagram illustrates various classes written for the system and their relationships.
 3. Use Case Diagram - This Use Case Diagram shows that interaction between user and diffrent functionlities of the system 
