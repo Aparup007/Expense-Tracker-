@@ -1,4 +1,6 @@
-# **MunimZ** (Prototype)
+# **MunimZ** a one stop solution for managing your expense 
+
+**General**
 
 **Overview**  
 
