@@ -2,11 +2,11 @@
 
 ## General
 
-**Overview**  
+### Overview 
 
 **MunimZ** ( "Munim Ji" is a Hindi(Indian) pharse; it means Accountant) is a comprehensive platform designed to streamline and enhance users' financial activities. This one-stop solution provides users with tools to manage transactions, set financial goals, monitor investments, check credit scores, and access personalized offers. The application aims to empower users in making informed financial decisions while offering a seamless and user-friendly experienceis.  
 
-**Features**  
+### Features
 i. User Management -  
 User Authentication: Users can securely log in and log out of the application.  
 Profile Management: Users can update their profiles and manage account information.  
@@ -34,7 +34,7 @@ vii. Reporting and Analysis -
 Consolidated Reports: Users can generate consolidated reports summarizing transactions, goals, and offers.  
 Interactive Visualizations: Visual representation of financial data to aid analysis.  
 
-**Usage**  
+### Usage
 Users can access the Financial Management App through an intuitive interface. After logging in, they have the flexibility to manage transactions, set financial goals, explore investment opportunities, and monitor their credit score. The application ensures data security and provides valuable insights to help users make informed financial decisions.  
 
 
