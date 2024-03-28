@@ -50,7 +50,7 @@ For my project I have used below three UML diagrams:
 3. [Use Case Diagram: ](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/UML%20Diagrams/UML%20Use%20Case%20Diagram.png): This Use Case Diagram shows that interaction between user and different functionalities of the system
 
 ## 3. DDD
-I have design [Context Mapping Diagram](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Contex%20Mapping%20Diagram.png), [Core Domain Chart](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Core%20Diagram%20Chart.jpg) and [Event storming diagram](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Event%20storming%20diagram.png) which compliments the entire system architecture
+I have designed [Context Mapping Diagram](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Contex%20Mapping%20Diagram.png), [Core Domain Chart](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Core%20Diagram%20Chart.jpg) and [Event storming diagram](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DDD/Event%20storming%20diagram.png) which compliments the entire system architecture
 
 ## 4. Metrics
 ![sonar_cube](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/sonarcloud%20logo.png)                                                                                                  
