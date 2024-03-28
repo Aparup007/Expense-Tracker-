@@ -87,7 +87,7 @@ I have writtten three unit test case using asserting method to test the code
 3. test_make_cash_transaction: This method tests the make_cash_transaction method of the User class, verifying if a cash transaction is correctly added to the user's transactions list.
 
 This is the [unt test file](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/Unit_test.py)                                                                                                                  
-![test_result](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20155057.png)                                                                                  
+![test_result](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-03-27%20182128.png)                                                                                  
 
 
 ## 9. IDE:
