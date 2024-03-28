@@ -36,8 +36,10 @@ Interactive Visualizations: Visual representation of financial data to aid analy
 Users can access the Financial Management App through an intuitive interface. After logging in, they have the flexibility to manage transactions, set financial goals, explore investment opportunities, and monitor their credit score. The application ensures data security and provides valuable insights to help users make informed financial decisions.  
 
 ## 1. Git
-A few years ago, I used GitHub, so going back to it recently was like a good refresher session for me. It made me better at excuting git actions like colne, push, pull, commit etc. . Git also helped me easily connect my project with other tools I used in my project, like SonarCloud, Maven, and Jenkins. Overall, working with Git for this assigment was a fun experience ! 
-My Stats:                                                                                                                                                                                                                      
+A few years ago, I used GitHub, so going back to it recently was like a good refresher session for me. It made me better at excuting git actions like colne, push, pull, commit etc. . Git also helped me easily connect my project with other tools I used in my project, like SonarCloud, Maven, and Jenkins. Overall, working with Git for this assigment was a fun experience !                                                                            
+My Stats:                                                                                                                                                                                                                   
+                                                                                                                                                                                                                            
+                                                                                                                                                                                                                           
 ![git_stat](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Github%20stat.png)                                                                                                                                                                    
 
 ## 2. UML Diagrams
