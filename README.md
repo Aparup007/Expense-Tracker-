@@ -107,7 +107,7 @@ The DSL file is related to the the project only. In this [DSL](https://github.co
 ## 11. Functional Programming: 
 
 To cover the mentioned aspects of Functional Programming I have modfiyed the source code accordinly , though this will be considered as out of the core project scope.
-Below is the explation of the functional programming,
+Below is the explation of the [functional programming](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/Functional_programming.py),
 
 1. Side-Effect-Free Functions: Methods like process_payment(), record_cash_transaction(), and others now return strings instead of directly printing to the console. This makes the functions side-effect-free, allowing 
    the caller to decide how to handle the returned value.
