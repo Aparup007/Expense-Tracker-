@@ -94,10 +94,10 @@ This is the [unt test file](https://github.com/Aparup007/One-Stop-Expense-Soluti
 
 I have recently started using VS Code for my project, and it is been a great learning experience. Before this, I had not used this platform for coding, so it is been new for me. I must say, I am really impressed with its functionality. The tool is excellent! The plugin options are amazing, and integrating Git repositories is very easy. 
 Apart from the common shortcuts, I have also learned some handy ones while working on the project, like,
-Ctrl + P: Quick open file
-Shift + Alt + F: Format code
-Ctrl + `: Show/hide terminal
-F5: Start debugging
+1. Ctrl + P: Quick open file
+2. Shift + Alt + F: Format code
+3. Ctrl + `: Show/hide terminal
+4. F5: Start debugging
 
 
 ## 10. DSL:
