@@ -87,7 +87,45 @@ I have writtten three unit test case using asserting method to test the code
 3. test_make_cash_transaction: This method tests the make_cash_transaction method of the User class, verifying if a cash transaction is correctly added to the user's transactions list.
 
 This is the [unt test file](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/Unit_test.py)                                                                                                                  
-![test_result](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20155057.png)
+![test_result](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20155057.png)                                                                                  
+
+
+## 9. IDE:
+
+I have recently started using VS Code for my project, and it is been a great learning experience. Before this, I had not used this platform for coding, so it is been new for me. I must say, I am really impressed with its functionality. The tool is excellent! The plugin options are amazing, and integrating Git repositories is very easy. 
+Apart from the common shortcuts, I have also learned some handy ones while working on the project, like,
+Ctrl + P: Quick open file
+Shift + Alt + F: Format code
+Ctrl + `: Show/hide terminal
+F5: Start debugging
+
+
+## 10. DSL:
+         
+The DSL file is related to the the project only. In this [DSL](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DSL.py) example, I created a DSLTransaction class that provides methods like payment, cash_transaction, and investment to create different types of financial transactions.
+
+## 11. Functional Programming: 
+
+To cover the mentioned aspects of Functional Programming I have modfiyed the source code accordinly , though this will be considered as out of the core project scope.
+Below is the explation of the functional programming,
+
+1. Side-Effect-Free Functions: Methods like process_payment(), record_cash_transaction(), and others now return strings instead of directly printing to the console. This makes the functions side-effect-free, allowing 
+   the caller to decide how to handle the returned value.
+2. Higher-Order Functions: While the code doesn't significantly use higher-order functions, we can introduce them in future modifications where appropriate. Higher-order functions can be functions like map(), filter(), 
+   or functions that take other functions as arguments.
+3. Functions as Parameters and Return Values: Functions like send_notification() now return values instead of printing directly. This allows for flexibility and potential use as return values from other functions.
+4. Use of Closures / Anonymous Functions: There are no explicit closures or anonymous functions introduced in this version of the code. However, they can be utilized in more advanced scenarios to encapsulate behavior 
+   within functions.
+   
+
+
+
+
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 
 
 
