@@ -50,8 +50,10 @@ I have design [Context Mapping Diagram](https://github.com/Aparup007/One-Stop-Ex
 
 ## 4. Metrics
 ![sonar_cube](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/sonarcloud%20logo.png)                                                                                                  
-SonarCloud has been used for analyse code quality
-Below are the metrics and correposding results                                                                                                                                                                                                                                                                                                                                                                                                             
+SonarCloud has been used for analyse code quality                                                                                                                                                                           
+Below are the metrics and correposding results                                                                                                                                                                              
+                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 ![sonar_cloud](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/SonarCloud%20result.png)
 ![code_passed](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Code_passed.png)
 
