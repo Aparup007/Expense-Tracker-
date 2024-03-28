@@ -79,9 +79,9 @@ Here is my personal CCD [cheatsheet](https://github.com/Aparup007/One-Stop-Expen
 
 ## 6/7. Build/Continuous Delivery :
 ![jenkins](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-03-27%20175206.png)                                                                                         
-I have installed Jenkins for CI/CD pipeline and used Maven plug-in through Jenkins platform for build process.
-This is the screenshot after completing the [build stage](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-21%20185709.png)
-I have build the complete CI/CD pipeline in Jenkins                                                                                                                                                                          
+I have installed Jenkins for creating CI/CD pipeline and used Maven plug-in through Jenkins platform for build process.
+This is the screenshot after completing the [build stage](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-21%20185709.png).
+I have prepared the complete CI/CD pipeline in Jenkins                                                                                                                                                                          
                                                                                                                                                                                                                                        
 ![pipeline](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-02-28%20163309.png)
 
