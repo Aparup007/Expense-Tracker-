@@ -63,7 +63,7 @@ Below are the metrics and corresponding results
 
 
 ## 5. Clean Code Development
-Below are the 5 methods with example among the many which has been used to write clean code for the project
+Below are the 5 methods with example among the many which have been used to write clean code for the project
 
 1. Descriptive Variable Names: In the code, variable names like user_id, username, amount, etc., are descriptive and convey the purpose of the variable. This makes the code easier to understand for anyone reading it.
 2. Modularization: The code is divided into meaningful classes such as User, Transaction, Payment, etc., each responsible for a specific aspect of the system. This modularization enhances code organization and 
