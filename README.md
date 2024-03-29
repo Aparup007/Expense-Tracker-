@@ -1,6 +1,10 @@
 ## General
 
 ### Overview 
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                            
+![logo](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/miscellaneous/Screenshot%202024-03-29%20142802.png)              
+                                                                                                                                                                                                                                  
 
 **MunimZ** ( "Munim Ji" is a Hindi(Indian) phrase; it means Accountant) is a comprehensive platform designed to streamline and enhance users' financial activities. This one-stop solution provides users with tools to manage transactions, set financial goals, monitor investments, check credit scores, and access personalized offers. The application aims to empower users in making informed financial decisions while offering a seamless and user-friendly experiences.  
 
