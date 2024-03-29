@@ -108,7 +108,7 @@ Apart from the common shortcuts, I have also learned some handy ones while worki
 
 ## 10. DSL:
          
-This created to simplify and streamline tasks within a specific domain by providing specialized syntax. In my case the DSL file is related to the project only. In this [DSL](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DSL.py) example, I created a DSLTransaction class that provides methods like payment, cash_transaction, and investment to create different types of financial transactions.
+This was created to simplify and streamline tasks within a specific domain by providing specialized syntax. In my case the DSL file is related to the project only. In this [DSL](https://github.com/Aparup007/One-Stop-Expense-Solution-MunimZ/blob/main/DSL.py) example, I created a DSLTransaction class that provides methods like payment, cash_transaction, and investment to create different types of financial transactions.
 
 ## 11. Functional Programming: 
 
